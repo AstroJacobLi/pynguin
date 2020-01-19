@@ -128,7 +128,7 @@ Namespaces are one honking great idea -- let's do more of those!（命名空间�
 
 
 ## Homework
-0. Register an GitHub account 
+0. Register an GitHub account
 
 1. 数据可视化的重要性。每天两章，请做笔记：https://serialmentor.com/dataviz/
 
@@ -136,4 +136,4 @@ Namespaces are one honking great idea -- let's do more of those!（命名空间�
 
    **Python data science book**: https://github.com/jakevdp/PythonDataScienceHandbook
 
-   
+3. 请用python模拟实验证明：服从正态分布的随机变量$X$的标准误为$\overline{X}/\sqrt{N}$. 

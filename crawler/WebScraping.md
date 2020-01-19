@@ -12,3 +12,6 @@ http://plasmasturm.org/log/xpath101/
 
 Scrapy on notebook: https://www.jitsejan.com/using-scrapy-in-jupyter-notebook.html
 
+
+
+Exercise: [Regular Expression](https://github.com/ziishaned/learn-regex)

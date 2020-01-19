@@ -92,9 +92,9 @@ IDEs: PyCharm (x), Spyder (could check variables, but in a "scriptive" way).
 
 Best choice: **<u>VSCode</u>** + [Jupyter](https://jupyter.org)! Jupyter = julia + python + terminal.
 
-``jupyter notebook``, ``jupyter lab``.
+区分：``jupyter notebook``, ``jupyter lab``.
 
-[Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions), [Jupyter notebook viewer](https://nbviewer.jupyter.org), some shortcuts.
+Jupyter的好帮手：[Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions), [Jupyter notebook viewer](https://nbviewer.jupyter.org), some shortcuts.
 
 
 ![The-Outsourcing-Learning-Curve](https://github.com/AstroJacobLi/pynguin/raw/master/basic/The-Outsourcing-Learning-Curve.png)

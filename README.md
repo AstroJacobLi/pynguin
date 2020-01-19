@@ -29,6 +29,8 @@ Python 资源大全中文版: https://github.com/jobbole/awesome-python-cn
 
 Python - 100天从新手到大师: https://github.com/jackfrued/Python-100-Days
 
+Scipy notes: http://scipy-lectures.org/index.html
+
 
 
 ## License

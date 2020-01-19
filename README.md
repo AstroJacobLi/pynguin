@@ -19,15 +19,15 @@
 
 ### 参考资料
 
-https://prappleizer.github.io
+**Python data science book**: https://github.com/jakevdp/PythonDataScienceHandbook
 
-https://zhuanlan.zhihu.com/p/69869004
-
-https://github.com/jobbole/awesome-python-cn
-
-https://taotie.readthedocs.io/en/latest/resource/programing/python_statistics.html#sampling-tools-and-bayesian-analysis
+最全数据分析资料汇总: https://zhuanlan.zhihu.com/p/69869004
 
 Berkeley Python Seminar: https://github.com/profjsb/python-seminar
+
+Python 资源大全中文版: https://github.com/jobbole/awesome-python-cn
+
+Python - 100天从新手到大师: https://github.com/jackfrued/Python-100-Days
 
 
 

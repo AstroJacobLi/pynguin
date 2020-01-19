@@ -15,3 +15,11 @@ Scrapy on notebook: https://www.jitsejan.com/using-scrapy-in-jupyter-notebook.ht
 
 
 Exercise: [Regular Expression](https://github.com/ziishaned/learn-regex)
+
+
+
+Awesone-spider: https://github.com/facert/awesome-spider
+
+有趣的Python爬虫和数据分析小项目: https://github.com/Alfred1984/interesting-python
+
+Python入门网络爬虫之精华版: https://github.com/lining0806/PythonSpiderNotes

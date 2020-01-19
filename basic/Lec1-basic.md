@@ -1,6 +1,16 @@
 
 
-# Lecture 1: Setting up your computer -- Operating system (Linux) and Python
+# Lecture 1: Linux and Python
+
+## Problem
+
+摄影师小汪在日本旅游时控制不住激动的双手，咔咔咔拍摄了一万张照片，其中照片的格式包括`.jpg`, `.png` (视频快照格式), `.ARW` (索尼拍摄), `.CR2` (佳能拍摄).  可是小汪躺下之后发现她只想处理ARW文件（大约有3000张），而小汪的电脑很卡，无法通过访达进行文件操作。请问小汪如何才能：
+
+1. 快速知道有多少张ARW文件？
+2. 把其他的文件都移动到硬盘，只保留ARW文件在本地？
+3. 只修昨天拍的图？
+
+
 
 ## Operating System
 
@@ -92,6 +102,28 @@ Best choice: **<u>VSCode</u>** + [Jupyter](https://jupyter.org)! Jupyter = julia
 Life of a programmer:
 
 ![jakevdp](https://github.com/AstroJacobLi/pynguin/raw/master/basic/jakevdp.png)
+
+
+
+### Zen of Python
+
+Beautiful is better than ugly. （优美比丑陋好）
+
+ Explicit is better than implicit.（清晰比晦涩好） 
+
+Simple is better than complex.（简单比复杂好） 
+
+Complex is better than complicated.（复杂比错综复杂好） 
+
+Flat is better than nested.（扁平比嵌套好）
+
+Sparse is better than dense.（稀疏比密集好） 
+
+Readability counts.（可读性很重要） 
+
+Now is better than never.（现在开始做比不做好）  
+
+Namespaces are one honking great idea -- let's do more of those!（命名空间非常有用，我们应当多加利用）
 
 
 

@@ -34,12 +34,11 @@
 - ``cp``: -R (recursively), -u (update), -i (interactive), -f (forced)
 - ``rm``: -r (recursively), -f (forced). Be cautious with ``rm -rf xxx``.
 - control + C, control + Z, command + K, command + L
-- ``sudo`` (not Subo)
 - Wildcard ``*``
 - ``cat`` (concatenate): print out file content. ``cat file1 file2 > file3``.
 - ``wc`` (word count): lines, words, characters. ``wc -l`` only prints out lines.
-- ``ps`` (process): ``ps -aux``
 - ``>``: ``ls -lht > directory.txt``
+- ``sudo`` (not Subo)
 
 ### 禁忌
 
@@ -47,6 +46,8 @@
 - 文件名不要有空格
 - 文件管理
 - `rm -rf ` 之前请三思！！！
+
+
 
 ### More on Bash
 ``~/.bash_rc`` or ``~/.bash_profile``: config file of bash. 
@@ -128,10 +129,6 @@ Namespaces are one honking great idea -- let's do more of those!（命名空间�
 
 
 ## Homework
-0. Register an GitHub account
-
-1. 数据可视化的重要性。每天两章，请做笔记：https://serialmentor.com/dataviz/
-
 2. Jake VanderPlas: http://jakevdp.github.io; 
 
    **Python data science book**: https://github.com/jakevdp/PythonDataScienceHandbook

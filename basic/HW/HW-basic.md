@@ -22,5 +22,6 @@
 
 ## 数据可视化
 
-1. 阅读推送 https://mp.weixin.qq.com/s/yzo7zO5xBRjbPf5In6wSgQ，体会优秀数据可视化的重要性
+1. 阅读推送 https://mp.weixin.qq.com/s/yzo7zO5xBRjbPf5In6wSgQ
+   体会数据可视化的重要性
 2. 阅读 [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/index.html) 的第一第二章，必要时可做笔记。

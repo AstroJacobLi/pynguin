@@ -15,8 +15,7 @@
 8. 进入catalog文件夹，用猫猫命令将所有 `.dat` 文件合成为 `pic_cat.dat`. 
 9. 删除catalog_backup文件夹。
 10. 在terminal里测试以下两个快捷键有什么作用？
-   command + L
-   command + K 
+   command + L；command + K 
 
 
 

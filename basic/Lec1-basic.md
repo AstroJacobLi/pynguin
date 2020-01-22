@@ -49,6 +49,20 @@
 
 
 
+---
+
+### 复习
+
+如何使用ncm转码器？
+
+Markdown教程：https://www.jianshu.com/p/335db5716248
+
+编程常用字体：等宽字体 Consolas, Courier等。`Markdown`
+
+---
+
+
+
 ### More on Bash
 ``~/.bash_rc`` or ``~/.bash_profile``: config file of bash. 
 ``~/.bash_history``: history of bash. 
@@ -72,7 +86,7 @@ Common usage: ``:q, :w, :wq, :q!, h, j, k, l, w, b, e, u, ctrl+R``
 
 
 ## Python
-Pros: high level, open-source, widely used, countless third-party packages in various areas, large and active community, ML/DL.
+Pros: high level, <u>**open-source**</u>, widely used, countless third-party packages in various areas, large and active community, ML/DL.
 
 Cons: Slow? (Cython)
 
@@ -82,7 +96,9 @@ Cons: Slow? (Cython)
 Anaconda: https://www.anaconda.com; 清华镜像: https://mirrors.tuna.tsinghua.edu.cn.
 Pip: https://pip.pypa.io/en/stable/.
 
-#### Hello world：你的第一个python程序
+
+
+Hello world：你的第一个python程序
 
 
 
@@ -125,6 +141,10 @@ Readability counts.（可读性很重要）
 Now is better than never.（现在开始做比不做好）  
 
 Namespaces are one honking great idea -- let's do more of those!（命名空间非常有用，我们应当多加利用）
+
+
+
+### Basic Python Syntax
 
 
 

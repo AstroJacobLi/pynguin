@@ -160,12 +160,3 @@ Namespaces are one honking great idea -- let's do more of those!（命名空间�
 
 
 ### [Basic Python Syntax](https://github.com/AstroJacobLi/pynguin/blob/master/basic/basic-python.ipynb)
-
-
-
-## Homework
-2. Jake VanderPlas: http://jakevdp.github.io; 
-
-   **Python data science book**: https://github.com/jakevdp/PythonDataScienceHandbook
-
-3. 请用python模拟实验证明：服从正态分布的随机变量$X$的标准误为$\overline{X}/\sqrt{N}$. 

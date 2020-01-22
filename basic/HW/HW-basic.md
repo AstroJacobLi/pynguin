@@ -19,6 +19,37 @@
 
 
 
+## Python基础
+
+1. Jake VanderPlas: http://jakevdp.github.io; 
+
+   **Python data science book**: https://github.com/jakevdp/PythonDataScienceHandbook
+
+2. 请用python模拟实验证明：服从正态分布的随机变量$X$的标准误为$\overline{X}/\sqrt{N}$. 
+
+3. 解释下面函数中verbose的作用，并自己研究return和print的区别。
+
+   ```python
+   def runnian(year, verbose=False):
+       year = int(year)
+       if year % 4 != 0:
+           if verbose:
+               print('This year is not RunNian!')
+           return False
+       
+       elif year % 400 != 0:
+           if verbose:
+               print('This year is not RunNian!')
+           return False
+       
+       else:
+           if verbose:
+               print('This year IS RunNian!')
+           return True
+   ```
+
+
+
 ## 数据可视化
 
 1. 阅读推送 https://mp.weixin.qq.com/s/yzo7zO5xBRjbPf5In6wSgQ

@@ -12,6 +12,21 @@
 
 
 
+答案：
+
+```python
+import pandas as pd
+import os
+!ls -1 *.JPG > jpeg.txt
+df = pd.read_table("jpeg.txt", header=None)
+!mkdir jpeg_files
+for item in df[0]:
+    command = " ".join(['cp', item, './jpeg_files/' + item])
+    os.system(command)
+```
+
+
+
 ## Operating System
 
 ### Concepts
@@ -144,7 +159,7 @@ Namespaces are one honking great idea -- let's do more of those!（命名空间�
 
 
 
-### Basic Python Syntax
+### [Basic Python Syntax](https://github.com/AstroJacobLi/pynguin/blob/master/basic/basic-python.ipynb)
 
 
 

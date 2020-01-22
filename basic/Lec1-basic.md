@@ -90,7 +90,7 @@ Pros: high level, <u>**open-source**</u>, widely used, countless third-party pac
 
 Cons: Slow? (Cython)
 
-![compile-process](https://github.com/AstroJacobLi/Python101.5/raw/master/Lecture1/compile-process.png)
+![compile-process](https://github.com/AstroJacobLi/Python101.5/raw/master/basic/Figures/compile-process.png)
 
 #### Installation
 Anaconda: https://www.anaconda.com; 清华镜像: https://mirrors.tuna.tsinghua.edu.cn.
@@ -114,11 +114,11 @@ Best choice: **<u>VSCode</u>** + [Jupyter](https://jupyter.org)! Jupyter = julia
 Jupyter的好帮手：[Jupyter extensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions), [Jupyter notebook viewer](https://nbviewer.jupyter.org), some shortcuts.
 
 
-![The-Outsourcing-Learning-Curve](https://github.com/AstroJacobLi/pynguin/raw/master/basic/The-Outsourcing-Learning-Curve.png)
+![The-Outsourcing-Learning-Curve](https://github.com/AstroJacobLi/pynguin/raw/master/basic/Figures/The-Outsourcing-Learning-Curve.png)
 
 Life of a programmer:
 
-![jakevdp](https://github.com/AstroJacobLi/pynguin/raw/master/basic/jakevdp.png)
+![jakevdp](https://github.com/AstroJacobLi/pynguin/raw/master/basic/Figures/jakevdp.png)
 
 
 

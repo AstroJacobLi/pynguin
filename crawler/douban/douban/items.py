@@ -7,6 +7,15 @@
 
 import scrapy
 
+class TransItem(scrapy.Item):
+    name_chn = scrapy.Field()
+    name_eng = scrapy.Field()
+    kind = scrapy.Field()
+    credit = scrapy.Field()
+    score = scrapy.Field()
+    gpa = scrapy.Field()
+
+
 class DoubanItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()

@@ -1,6 +1,33 @@
-from douban.items import DoubanItem, DoubanPersonalItem
+from douban.items import DoubanItem, DoubanPersonalItem, TransItem
 import scrapy
 import logging
+import numpy as np
+
+# spider class
+class Transcript(scrapy.Spider):
+    name = 'transcript'
+    start_urls = ['http://astrojacobli.github.io/meander']
+    custom_settings = {
+        'LOG_LEVEL': logging.DEBUG,
+        'USER_AGENT': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36',
+    }
+    
+    def parse(self, response):
+        item = TransItem()
+        table = response.css('table.row-border-table tr.ng-scope')
+        for course in table:
+            data = course.css('td::text').getall()
+            item['name_chn'] = data[0]
+            item['name_eng'] = data[1]
+            item['kind'] = data[2]
+            item['credit'] = data[3]
+            item['score'] = data[4]
+            if data[4] == 'W':
+                item['gpa'] = np.nan
+            else:
+                item['gpa'] = data[5]
+            yield item
+            
 
 # spider class
 class DoubanMovieTop250Spider(scrapy.Spider):

@@ -10,6 +10,8 @@ Shell是否可以用VSCode？
 
 Safari中开启开发者模式
 
+
+
 ## 基础知识
 
 ### HTML: HyperText Markup Language 超文本标记语言
@@ -25,6 +27,8 @@ HTML是一种建立网页文件的语言，通过标记式的指令(**Tag**)，�
 例子：http://kiaa.pku.edu.cn/~yuqj/
 
 ```
+<h1>
+<p>
 <em>
 <i>
 <b>
@@ -60,3 +64,14 @@ p {
 
 **作业**：把《谈恋爱》的内容制作成一个html网页，不要通篇白底黑字嗷。
 
+
+
+
+
+## Git
+
+Git is a distributed version-control system for tracking changes in source code during software development.
+
+
+
+Reference: [Git tutorial](http://marwahaha.github.io/2015-07-09-berkeley/git/), [Set SSH on GitHub](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent), [``git`` cheat sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf).

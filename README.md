@@ -7,13 +7,14 @@
 
 试图涵盖以下内容：
 
-1. Unix入门；如何着手编写Python程序；Jupyter notebook入门。
-2. Python基础语法
-3. Numpy入门
-4. Matplotlib入门
-5. Pandas入门：处理社会科学数据
-6. 网页爬虫
-7. 贝叶斯统计？
+1. [Unix入门；如何着手编写Python程序；Jupyter notebook入门。](https://github.com/AstroJacobLi/pynguin/tree/master/basic)
+2. [Python基础语法](https://github.com/AstroJacobLi/pynguin/tree/master/basic)
+3. [Numpy入门](https://github.com/AstroJacobLi/pynguin/tree/master/numpy)
+4. [Python高级语法 (缺Git)](https://github.com/AstroJacobLi/pynguin/tree/master/advance)
+5. [网页入门](https://github.com/AstroJacobLi/pynguin/tree/master/html-basic)和[网页爬虫](https://github.com/AstroJacobLi/pynguin/tree/master/crawler)
+6. [Matplotlib入门](https://github.com/AstroJacobLi/pynguin/tree/master/plot)
+7. [Pandas入门](https://github.com/AstroJacobLi/pynguin/tree/master/pandas)
+8. 其他
 
 
 
@@ -36,5 +37,7 @@ Scipy notes: http://scipy-lectures.org/index.html
 ## License
 
 Copyright 2020 [Jiaxuan Li 李嘉轩](astrojacobli.github.io) and contributors.
+
+Designed for @meander-why.
 
 This repository is made available under the MIT License. 

@@ -12,9 +12,10 @@
 3. [Numpy入门](https://github.com/AstroJacobLi/pynguin/tree/master/numpy)
 4. [Python高级语法 (缺Git)](https://github.com/AstroJacobLi/pynguin/tree/master/advance)
 5. [网页入门](https://github.com/AstroJacobLi/pynguin/tree/master/html-basic)和[网页爬虫](https://github.com/AstroJacobLi/pynguin/tree/master/crawler)
-6. [Matplotlib入门](https://github.com/AstroJacobLi/pynguin/tree/master/plot)
-7. [Pandas入门](https://github.com/AstroJacobLi/pynguin/tree/master/pandas)
-8. 其他
+6. [LaTeX入门](https://github.com/AstroJacobLi/pynguin/tree/master/latex)
+7. [Matplotlib入门](https://github.com/AstroJacobLi/pynguin/tree/master/plot)
+8. [Pandas入门](https://github.com/AstroJacobLi/pynguin/tree/master/pandas)
+9. 其他
 
 
 

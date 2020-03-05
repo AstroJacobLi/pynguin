@@ -191,11 +191,11 @@ url = # 电影的链接
           item = DoubanItem()
           movies = response.css("ol.grid_view li")
           for movie in movies:
-            	## 
+            	## 等你补全 ##
               item['score'] = float(movie.css(".star span.rating_num::text").get())
-              ##
+              ## 等你补全 ##
               yield item
-          ## 翻页！
+          ## 翻页！##
           next_page = response.css("div.paginator span.next a::attr(href)").get()
           if next_page is not None:
               yield response.follow(next_page, callback=self.parse)
@@ -205,7 +205,7 @@ url = # 电影的链接
 
   退出到最初的douban文件夹
 
-  `scrapy crawl douban250 -o douban_movie.csv`
+  `$ scrapy crawl douban250 -o douban_movie.csv`
 
 - 在pandas里读取文件
 
@@ -213,48 +213,74 @@ url = # 电影的链接
 
   
 
+### 5. 如何给Spider传入一个input自变量？
+
+```python
+def __init__(self, person_id):
+  self.id = person_id
+  self.start_urls = ['https://movie.douban.com/people/{}/collect'.format(self.id)]
+  super().__init__()
+```
 
 
 
+```python
+# spider class
+class DoubanPerson(scrapy.Spider):
+    name = 'douban_person'
+    def __init__(self, person_id):
+        self.id = person_id
+        self.start_urls = ['https://movie.douban.com/people/{}/collect'.format(self.id)]
+        super().__init__()
+    
+    def parse(self, response):
+        item = DoubanPersonalItem()
+        movies = response.css("div.grid-view div.item")
+        for movie in movies:
+            item['movie_name'] = movie.css(".title a em::text").get().split(" / ")[0]
+            item['alias'] = movie.css("a").attrib['title']
+            item['url'] = movie.css("a").attrib['href']
+            item['date'] = movie.css(".date::text").get()
+            for num in range(1, 6):
+                if movie.css("span.rating{}-t".format(num)).get():
+                    item['score'] = num
+            try:
+                item['year'] = movie.css(".intro::text").re(r"[0-9]{4}")[0]
+            except:
+                item['year'] = "0000"
+            item['comment'] = movie.css(".comment::text").get()
+            yield item
+        
+        next_page = response.css('.next a::attr(href)').get()
+        if next_page is not None:
+            yield response.follow(next_page, callback=self.parse)
+            
+```
+
+`$ scrapy crawl douban_person -a person_id=184108788 -o meander.json -t json`
 
 
 
+### 6. 其他的参考资料
 
+Filtering startup news with Machine Learning: https://monkeylearn.com/blog/filtering-startup-news-machine-learning/
 
-## 爬虫
-
-
-
-https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/
-
-
-
-XPath:
-
-https://www.w3.org/TR/xpath/all/
-
-https://docs.scrapy.org/en/latest/topics/selectors.html#topics-selectors
-
-http://zvon.org/comp/r/tut-XPath_1.html
-
-http://plasmasturm.org/log/xpath101/
-
-
-
-Scrapy on notebook: https://www.jitsejan.com/using-scrapy-in-jupyter-notebook.html
-
-
-
-https://monkeylearn.com/blog/filtering-startup-news-machine-learning/
-
-
-
-Exercise: [Regular Expression](https://github.com/ziishaned/learn-regex)
-
-
-
-Awesone-spider: https://github.com/facert/awesome-spider
+Web Scraping in Python using Scrapy (with multiple examples) (不知道为啥打不开？？？可能该网站服务器挂了？): https://www.analyticsvidhya.com/blog/2017/07/web-scraping-in-python-using-scrapy/
 
 有趣的Python爬虫和数据分析小项目: https://github.com/Alfred1984/interesting-python
 
 Python入门网络爬虫之精华版: https://github.com/lining0806/PythonSpiderNotes
+
+关于Selector：https://docs.scrapy.org/en/latest/topics/selectors.html#topics-selectors
+
+Selector除了CSS之外，还有另一个语言叫XPath：https://www.w3.org/TR/xpath/all/；http://zvon.org/comp/r/tut-XPath_1.html；http://plasmasturm.org/log/xpath101/
+
+如何run Scrapy on notebook: https://www.jitsejan.com/using-scrapy-in-jupyter-notebook.html
+
+
+
+
+
+## 作业（我和你一起做，我也没做过）
+
+

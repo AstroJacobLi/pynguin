@@ -284,3 +284,10 @@ Selector除了CSS之外，还有另一个语言叫XPath：https://www.w3.org/TR/
 ## 作业（我和你一起做，我也没做过）
 
 
+
+
+
+https://www.selenium.dev/selenium/docs/api/py/webdriver_remote/selenium.webdriver.remote.webelement.html
+
+
+

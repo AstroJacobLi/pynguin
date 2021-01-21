@@ -1,0 +1,187 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Peking Univ. Physical Review (cn)
+%
+% LaTeX Template
+% Version 2.1
+% Release 03/19/18
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) 
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+%\RequirePackage{times}      % Loads the Times-Roman Fonts
+%\RequirePackage{mathptmx}   % Loads the Times-Roman Math Fonts
+\documentclass[10pt,a4paper,twocolumn]{PPRAcn} % Document font size
+
+\usepackage[UTF8]{ctex}
+\usepackage[english]{babel} % Specify a different language here - english by default
+\usepackage{lipsum} % Required to insert dummy text. To be removed otherwise
+\usepackage{bm,caption,textcomp,subfigure,float}
+\usepackage[keeplastbox]{flushend}
+\usepackage{geometry}
+\newgeometry{top=28mm,bottom=25mm,left=20mm,right=25mm}
+
+\newcommand{\upcite}[1]{\textsuperscript{\textsuperscript{\cite{#1}}}}
+
+%----------------------------------------------------------------------------------------
+%	COLUMNS
+%----------------------------------------------------------------------------------------
+
+\setlength{\columnsep}{7.0mm} % Distance between the two columns of text
+\setlength{\fboxrule}{0.75pt} % Width of the border around the abstract
+\setlength{\abovecaptionskip}{5pt}
+\setlength{\belowcaptionskip}{0pt}
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\definecolor{color1}{RGB}{0,0,90} % Color of the article title and sections
+\definecolor{color2}{RGB}{0,20,20} % Color of the boxes behind the abstract and headings
+
+%----------------------------------------------------------------------------------------
+%	HYPERLINKS
+%----------------------------------------------------------------------------------------
+
+\usepackage{hyperref} % Required for hyperlinks
+\hypersetup{hidelinks,colorlinks,breaklinks=true,urlcolor=color2,citecolor=color1,linkcolor=color1,bookmarksopen=false,pdftitle={Title},pdfauthor={Author}}
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE INFORMATION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\keywordname}{Keywords} % Defines the keywords heading name
+\captionsetup[figure]{name={图}}
+\captionsetup[table]{name={表}}
+\captionsetup{font={small}}
+%\JournalInfo{Journal, Vol. XXI, No. 1, 1-5, 2013} % Journal information
+%\Archive{Additional note} % Additional notes (e.g. copyright, DOI, review/research article)
+
+%\input{essay/info} %这是标题，作者和摘要（关键词）
+
+\PaperTitle{香烟与酒是互补品吗？} % Article title
+
+
+\Authors{李嘉轩\textsuperscript\ 1600011628} % Authors
+\affiliation{
+	\quad
+	\textit{北京大学物理学院，学号1600011628，序号58. Email: jiaxuan\_li@pku.edu.cn}
+} % Author affiliation
+
+\Abstract{
+	\phantom{田田}香烟与酒是与中国人的生活密不可分。医学研究表明，它们对人的健康有着明显的伤害。本文通过分析中国在2006年至2015年的数据对香烟与酒的关系进行了实证研究。通过对香烟、酒、粮食的价格及烟草税等因素的研究，本文得出了香烟与酒是\textbf{互补品}的结论。这对政府管控烟酒的消费具有积极意义：提高烟草税可以同时减少香烟与酒的消费，从而减少它们对国民身体的伤害。
+}
+
+
+\Keywords{\phantom{田田}烟草\quad 酒类 \quad 互补品} % 如不需要关键词可直接删去花括号中内容
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\flushbottom % Makes all text pages the same height
+
+\maketitle % Print the title and abstract box
+
+%\tableofcontents % Print the contents section
+
+\thispagestyle{empty} % Removes page numbering from the first page
+
+%----------------------------------------------------------------------------------------
+%	ARTICLE CONTENTS
+%----------------------------------------------------------------------------------------
+
+
+
+\section{引言}
+在中国社会文化和消费习惯中，香烟和酒是两种具有举足轻重地位的商品。烟和酒均具有成瘾性，且对人的健康具有多方面的负面作用。烟内的焦油、二恶英等物质是强致癌物，是肺癌的元凶之一。尼古丁等成分也会显著增加患心脑血管疾病的风险。酒虽然承载了几千年的中华文化，被中国人视为餐桌上最重要的饮品，但酒精对肝脏和心脑血管的危害是不可忽略的。酒精可以麻痹人的运动系统和反应系统，每年中国因酒驾而发生的交通事故多达上万起。另一方面，烟草产业和酒类产业对中国经济的贡献是不容小觑的。对于一些经济欠发达地区（如贵州和云南），烟酒产业是经济的主要来源之一。贵州茅台和云南云烟都是占据市场份额最大的烟酒类品牌之一。自2006年开始征收烟叶税以来，国家烟叶税税额逐年提高。在2017年，国家烟叶税就高达120亿元。近年来，随着电子烟产业的兴起，传统烟草行业受到了冲击。考虑到烟酒对人体健康巨大的副作用和烟酒带来的巨大税收，是否降低中国烟酒消耗量是摆在政府面前的一个难题。事实上，许多人认为降低烟酒消耗量带来的收益（平均寿命延长、医疗负担减轻）要远大于烟酒行业带来的税收。
+
+减少烟草消费的一个途径是提高政府对烟叶征收的烟叶税。在这种政策下，烟与酒的关系变得格外重要。如果烟与酒是互补品，则烟的需求会与酒的需求同向变化，从而提高烟草税会同时降低酒的消费。如果烟与酒是替代品，则烟草税的提高虽然降低了烟草消费，但在这个激励下人们会转而购买更多酒，这与我们促进健康生活的初心不符。面对电子烟对烟草市场的强烈进攻，有研究发现电子烟与传统香烟是互补而非替代关系 \cite{e-cig2018}，因而提高传统香烟价格也可以减少电子烟的消费。从而，对烟与酒关系的研究是具有广泛而重要的意义的。
+
+实际上，中外学者们对此烟酒关系已经展开过研究，但是结果各异。在医学上，Room \cite{ROOM2004}发现烟与酒是互补品。在实证经济学中，利用美国各州在1959到1982年的数据，Goel \& Morey \cite{Goel1995}发现烟与酒是相互替代的关系；但Jones \cite{Jones1989}发现烟与各类酒精饮料都是互补的关系；而Decker \& Schwartz \cite{Decker2000}发现较高的酒类饮料价格会同时降低烟和酒的消费量，但香烟价格与酒类饮料消费并无关系。对于中国而言，Yu \& Abler \cite{Xiaohua2010Interactions}通过研究1994年到2003年中国农村地区的烟酒消费发现烟酒的消费均对酒类价格敏感，而对香烟价格和收入不敏感。这一被广泛讨论却备受争议的问题引起了我的兴趣。因此，本文通过建立简单模型对烟与酒的关系进行实证研究，尝试回答烟与酒是互补品还是替代品，从而对烟叶税的影响进行评估。
+
+\section{数据和模型}
+
+本文使用国家统计局提供的年度数据，包括了从2006年至2015年这10年内的全国卷烟产量（亿支）、居民消费价格指数CPI、烟草类居民消费价格指数、酒类居民消费价格指数、国家烟叶税（亿元）。考虑到粮食价格可能影响酒类的产销量和价格，我们还包含了这10年间的粮食类居民消费价格指数。
+
+在从国家统计局上下载的原始数据中，消费价格指数均以上年作为基准年。为了让价格指数体现该类商品的真实价格变化趋势，我将其换算为以2006年作为基准年的消费价格指数。同时，考虑到原始数据中的税收是名义税收，我利用全国居民消费价格指数对人民币在10年重的通货膨胀进行了矫正，将税收以2006年为基准年进行了归算。
+
+由于笔者学识浅薄，本文中采用最简单的线性模型OLS进行回归分析。由于国家统计局并未提供卷烟消费量和与酒类消费和生产相关的数据，我们这里以全国卷烟产量为因变量，考虑其他因素对因变量的影响。
+\begin{align}\label{eq:without-edu}
+	\ln(\text{卷烟产量}) \sim\  &\text{烟草类CPI} + \text{酒类CPI } \nonumber \\ 
+	& + \ln(\text{烟叶税}) + \text{粮食类CPI}.
+\end{align}
+	
+此外，教育程度可能会影响烟与酒的消费，因为受过更高教育的人或许更能意识到烟与酒对身体健康的危害。在这里，我们用“受过高中及以上教育的人口占全国人口的比例”作为全国人口受教育程度的衡量。我们参考了在2006--2015年间进行的三次人口普查数据，对三次普查数据进行了内插，从而得到相邻两次普查之间年份的受教育程度结果。因此，模型2变为:
+\begin{align}\label{eq:with-edu}
+	\ln(\text{卷烟产量}) \sim\  &\text{烟草类CPI} + \text{酒类CPI } + \ln(\text{烟叶税}) \nonumber \\ 
+	& + \text{粮食类CPI} +  \text{受教育程度} .
+\end{align}
+
+
+\section{结果和讨论}
+\begin{table}
+	\begin{center}
+		\begin{tabular}{lcccc}
+			\toprule
+			& \textbf{coef} & \textbf{stderr} & \textbf{t} & \textbf{P$> |$t$|$} \\
+			\midrule
+			\textbf{烟草类CPI}           &     8.42e-05  &        0.004     &     0.024  &         0.982        \\
+			\textbf{酒类CPI}           &      -0.0034  &        0.001     &    -3.527  &         0.017        \\
+			\textbf{ln(烟叶税)} &       0.1758  &        0.008     &    22.095  &         0.000        \\
+			\textbf{粮食类CPI}        &       0.0039  &        0.001     &     5.019  &         0.004        \\
+			\textbf{截距}         &       9.2055  &        0.387     &    23.815  &         0.000        \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\caption{利用模型 \eqref{eq:without-edu} 进行OLS的回归结果。}
+\label{tab:without-edu}
+\end{table}
+
+\begin{table}
+	\begin{center}
+		\begin{tabular}{lcccc}
+			\toprule
+			& \textbf{coef} & \textbf{stderr} & \textbf{t} & \textbf{P$> |$t$|$} \\
+			\midrule
+			\textbf{烟草类CPI}           &       0.0005  &        0.004     &     0.149  &         0.889        \\
+			\textbf{酒类CPI}           &      -0.0043  &        0.001     &    -2.974  &         0.041        \\
+			\textbf{ln(烟叶税)} &       0.1999  &        0.030     &     6.628  &         0.003        \\
+			\textbf{粮食类CPI}         &       0.0045  &        0.001     &     4.108  &         0.015         \\
+			\textbf{受教育程度}              &      -0.1601  &        0.193     &    -0.831  &         0.453       \\
+			\textbf{截距}        &       9.2687  &        0.406     &    22.813  &         0.000        \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{利用模型 \eqref{eq:with-edu} 进行OLS的回归结果，加入了受教育程度的因素。}
+	\label{tab:with-edu}
+\end{table}
+
+本文利用Python开源软件包\texttt{Statemodels} \cite{statsmodels} 进行OLS回归。对于模型 \eqref{eq:without-edu}，回归结果见表格\ref{tab:without-edu}. 可以发现，在这些因素中，烟叶税对卷烟产量的影响最为显著。令人惊讶的是，烟草价格指数对卷烟产量几乎无影响，反而酒类价格指数对卷烟产量有着显著的影响。同时，粮食价格指数对卷烟产量的影响也很显著。通过观察烟草税与卷烟产量，我们发现他们均具有随时间增长的趋势，因此烟草税与卷烟强正相关是可以被理解为是一个自然的时间相关性。抛去这个相关性之后，我们发现酒类价格越高，卷烟产量反而越小。对于模型 \eqref{eq:with-edu}，回归结果见表格\ref{tab:with-edu}. 在增加了受教育程度之后，我们之前用模型1得到的结论并没有改变，反而说明了受教育程度并不显著影响卷烟的产量。因为受教育程度随着时间上升，因此受教育程度的加入一定程度上降低稀释了烟叶税对于时间因素的解释。
+
+根据这两个模型的结果，卷烟产量受烟草类产品价格的影响不大。这个反直觉的结论很可能是因为在2006--2015这10年间烟草类居民消费价格指数基本维持在一个恒定水平，波动不大，因此在回归中的作用也不大，而酒类居民消费价格指数在这10年内波动较大，从而对卷烟产量的解释能力较强。我们假设一个自由市场，在该自由市场内，均衡数量即等于产量也等于销量，所以我们数据中的卷烟产量一定程度上代表了卷烟销量。在此假设下，根据互补品的定义，如果酒类价格与卷烟产量确实有负相关，而说明烟与酒是\textbf{互补品}。
+
+如果烟与酒是互补品，则提高一类商品的价格就可以降低另一类商品的销量。各国在烟酒管控上的举措多为向烟草收税而非向酒类收税。高烟草税提高了烟的价格，降低香烟销量的同时也降低了酒的销量，达到了促进健康的目的。
+
+\vspace{2em}
+
+作为对该问题的初步思考，本文的结论有较大局限性。受限于数据的来源，本文没有分析酒类商品的销量与烟酒价格的关系，因此得到的结论或许比较片面。受限于模型和数据，本文没有检验结论的鲁棒性。另一方面，中国的烟草仍然由国营企业把控，所以这里的部分推理并不一定成立。通过本文的研究和写作，我对计量经济学产生了较浓厚的兴趣，希望以后能有机会了解更多。在此感谢汪欢颜和樊骥暕的帮助。
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE LIST
+%----------------------------------------------------------------------------------------
+
+\phantomsection
+\small
+\renewcommand\refname{参考文献}
+\bibliographystyle{unsrt}
+\bibliography{ref}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
